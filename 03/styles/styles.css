@@ -1,0 +1,32 @@
+.compartir{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inline{
+    display: inline;
+    margin: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.calificacion{
+    display: inline;
+    margin: 0;
+}
+
+.italicas{
+    font-style: italic;
+}
+
+.titulo-comentario{
+    margin-bottom: 0px;
+}
+
+.botones{
+    margin-top: 15px;
+}
+
