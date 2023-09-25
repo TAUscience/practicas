@@ -1,0 +1,19 @@
+.bloque{
+    display: block;
+}
+
+.formulario{
+    width: 70%;
+    max-width: 80%;
+    margin: auto;
+}
+
+table{
+    width: 90%;
+}
+
+tr{
+    margin: auto;
+}
+
+

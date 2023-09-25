@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Indique sus preferencias, por favor</legend>
+            <p>
+                <label for="fecha">Elija una fecha: </label>
+                <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                <label for="archivo">Elija un archivo: </label>
+                <input type="file" name="archivo" id="archivo">
+            </p>
+            <p>
+                <input type="radio" name="procesador" id="procesadoramd" value="procesadoramd">
+                <label for="procesadoramd">AMD</label>
+                <input type="radio" name="procesador" id="procesadorintel_i5" value="procesadorintel_i5">
+                <label for="procesadorintel_i5">Intel i5</label>
+                <input type="radio" name="procesador" id="procesadorintel_i7" value="procesadoramdintel_i7">
+                <label for="procesadorintel_i7">Intel i7</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias, por favor</legend>
+            <p>
+                <input type="radio" name="materia" id="matematicas" value="asignaturamatematicas">
+                <label for="matematicas">Matemáticas</label>
+                <input type="radio" name="materia" id="historia" value="asignaturahistoria">
+                <label for="historia">Historia</label>
+                <input type="radio" name="materia" id="geografia" value="asignaturageografia">
+                <label for="geografia">Geografía</label>
+                <input type="radio" name="materia" id="lengua" value="asignaturalengua">
+                <label for="lengua">Lengua</label>
+            </p>
+            <p>
+                <label for="nombre">Nombre </label>
+                <input type="text" name="nombre" id="nombre" required>
+            </p>
+            <p>
+                <label for="apellidos">Apellidos </label>
+                <input type="text" name="apellidos" id="apellidos" required>
+            </p>
+            <p>
+                <label for="direccion">Dirección </label>
+                <input type="text" name="direccion" id="direccion" required>
+            </p>
+            <p>
+                <label for="color">Elija un color </label>
+                <input type="color" name="color" id="color">
+            </p>
+            <p>
+                <textarea name="area-escritura" id="area-escritura" cols="59" rows="6">Utilice este cuadrado para escribir...</textarea>
+            </p>
+            <p>
+                <label for="fecha2">Elija una fecha: </label>
+                <input type="date" name="fecha2" id="fecha2">
+            </p>
+            <p>
+                <select name="idioma" id="idioma">
+                    <option value="ingles">Inglés</option>
+                    <option value="aleman">Alemán</option>
+                    <option value="frances">Francés</option>
+                </select>
+            </p>
+            <p>
+                <label for="hora">Elija una hora: </label>
+                <input type="time" name="hora" id="hora">
+            </p>
+            <p>
+                <input type="checkbox" name="sexo" id="sexomujer" value="sexomujer">
+                <label for="sexomujer">Mujer</label>
+                <input type="checkbox" name="sexo" id="sexohombre" value="sexomujer">
+                <label for="sexohombre">Hombre</label>
+            </p>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</html>
