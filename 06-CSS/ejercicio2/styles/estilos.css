@@ -1,0 +1,50 @@
+body{
+    background-image: url("../images/art-background4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: white;
+    width: 20%;
+    padding: 1.5rem;
+    margin-left: 7%;
+    font-size: 0.8rem;
+    min-width: 300px;
+}
+header h1{
+    font-family: 'Six Caps', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+article{
+    background-color: rgba(255,255,255,0.5);
+    width: 30%;
+    margin-left: 7%;
+    margin-top: 5%;
+    min-width: 350px;
+}
+article h2{
+    background-color: rgba(255,255,255,0.5);
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+article p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    font-weight: bold;
+}
+article p:last-of-type{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 50%;
+    margin-left: 1rem;
+}
+article footer{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+article footer a{
+    text-decoration: underline dotted ;
+    font-size: 0.7rem;
+}
